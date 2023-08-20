@@ -6,11 +6,11 @@ Setup
 Create a new project folder and connect it to a github repository. Copy the text from this README.md file into it.
 Create an index.html file and a styles.css file.
 Use the ! emmet shortcut to stub out the page.
-In the <head>, link the the CSS file to the HTML page.
+In the head, link the the CSS file to the HTML page.
 Build the HTML Structure
 In the body element, create a div with an id of "container"
 Add 4 div elements with a class name of "boxes" and a unique id (box1, box2, boxN) inside the container div. Each added div will be a child of the container div and a sibling to each other.
-Create an <h2>, <p>, and <a> element inside of each of the 4 div's. Add the following content to the elements:
+Create an h2, p, and a element inside of each of the 4 div's. Add the following content to the elements:
 h2: Add a story title in each header
 p: Add a story description within each paragraph
 a: Add a link that says "Read More"
@@ -57,7 +57,7 @@ Madness!! Notice how it moved somewhere strange, and now the other box divs act 
 Adjust your position using any of the top, bottom, left, right properties to get it back to being next to the first div.
 It should look something like this, and notice that the other divs flow as if the "absolute" div isn't included anymore!
 Remove the position styling (including all the top/bottom/left/right) from the second box div. This should make it return to what it looked like before being re-positioned.
-Add a new new div element in your HTML above the h2 elements in each box. These will not wrap anything, but rather be stand alone, i.e. <div></div>.
+Add a new new div element in your HTML above the h2 elements in each box. These will not wrap anything, but rather be stand alone, i.e. div/div.
 These divs will be representing "images" for each box
 Give all four of these divs a custom class name they all share.
 Select that class in your CSS, and add the following properties:
@@ -68,7 +68,7 @@ You should have something close to this with those divs added and styled, with y
 Use your new knowledge of positioning to get that circle next to the h2 element! Shoot for a goal looking similar to this screenshot.
 It probably won't be perfect and it might scale strangely if you change your browser size, but that's okay! Raw CSS is tricky. We'll learn better ways to handle these issues later. :)
 Styling Specificity
-The following HTML code will be below the .container div, but still within your </body>. So under all the box business you've been coding so far.
+The following HTML code will be below the .container div, but still within your /body. So under all the box business you've been coding so far.
 
 Below the boxes, insert 3 h1 tags into the html document, give each text for your favorite TV shows.
 Apply styling so that all h1’s have a font color of your choice.
@@ -87,6 +87,6 @@ Add the class "star" to the second and third unordered list.
 Apply styling to the class "star" changing the font color.
 Add the id "wars" to the third unordered list.
 Apply styling to the id "wars" changing the font color.
-Take note again on the order of specificity between element, class, and id selectors. element selector styling < class selector < id selector.
+Take note again on the order of specificity between element, class, and id selectors. element selector styling  class selector  id selector.
 Wrap each list in a div, give the div a border that is 2 pixels thick, have it be solid and the color be black.
 It'll look like a multi color fiasco, but the purpose here was to learn how specificity works!
