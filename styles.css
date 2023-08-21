@@ -1,0 +1,97 @@
+body {
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: lightgrey;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 700;
+    color: maroon;
+}
+
+span {
+    font-weight: 600;
+    color: crimson;
+}
+
+.boxes {
+    margin: 2em;
+    padding: 3em 1em;
+    border: 1em solid #d401d4;
+    border-radius: 2em;
+    width: 30em;
+    display: block;
+}
+
+#box1 {
+    background-color: #c28366;
+}
+
+#box2 {
+    background-color: #e2b555;
+}
+
+#box3 {
+    background-color: #629e4a;
+}
+
+#box4 {
+    background-color: #af2c2c;
+}
+
+.custom {
+    position: relative;
+    left: 3em;
+    top: 3.5em;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #c34a02;
+}
+
+.original {
+    color: indigo;
+}
+
+#show1 {
+    color: maroon;
+}
+
+#show2 {
+    color: green;
+}
+
+#show3 {
+    color: gold;
+}
+
+#show4 {
+    color: plum;
+}
+
+#show5 {
+    color: orange;
+}
+
+ul {
+    color: cornflowerblue;
+}
+
+.star {
+    color: purple;
+}
+
+#wars {
+    color: forestgreen;
+}
+
+.list {
+    border: 2px solid black;
+}
